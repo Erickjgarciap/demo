@@ -4,6 +4,7 @@ plugins {
 	id 'org.springframework.boot' version '2.7.11'
 	id 'io.spring.dependency-management' version '1.1.0'
 	id "org.sonarqube" version "4.2.0.3129"
+	id 'jacoco'
 }
 
 group = 'com.example.junit'
@@ -30,4 +31,10 @@ sonarqube {
 		property "sonar.organization", "erickjgarciap"
 		property "sonar.host.url", "https://sonarcloud.io"
 	}
+}
+test {
+    finalizedBy jacocoTestReport
+}
+jacocoTestReport {
+    dependsOn test
 }
