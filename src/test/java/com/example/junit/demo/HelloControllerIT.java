@@ -12,20 +12,16 @@ import org.springframework.http.ResponseEntity;
 import static org.junit.jupiter.api.Assertions.*;
 
 
+
+@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 public class HelloControllerIT {
 
-    @Mock
+    @Autowired
     private TestRestTemplate template;
 
-    @BeforeAll
-    public void init(){
-        MockitoAnnotations.initMocks(this);
-
-    }
     @Test
     public void getHello() throws Exception {
-       // Mockito.when(template.getForEntity("/", String.class));
-        //ResponseEntity<String> response = template.getForEntity("/", String.class);
-        //assertEquals(response.getBody(), "Greetings from Spring Boot!");
+        ResponseEntity<String> response = template.getForEntity("/", String.class);
+        assertEquals(response.getBody(), "Greetings from Spring Boot!");
     }
 }
