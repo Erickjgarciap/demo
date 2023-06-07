@@ -21,8 +21,11 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
-tasks.named('test') {
+tasks.named('test').configure{
 	useJUnitPlatform()
+}
+tasks.named('sonarqube').configure{
+	dependsOn test
 }
 
 sonarqube {
@@ -36,5 +39,8 @@ test {
     finalizedBy jacocoTestReport
 }
 jacocoTestReport {
-    dependsOn test
+    reports{
+    	xml.enabled true
+    }
 }
+test.finalizedBy jacocoTestReport
