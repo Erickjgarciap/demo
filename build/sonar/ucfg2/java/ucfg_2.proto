@@ -1,0 +1,46 @@
+
+›com.example.junit.demo.DemoJunitApplication#commandLineRunner(Lorg/springframework/context/ApplicationContext;)Lorg/springframework/boot/CommandLineRunner;g
+]/home/ericko/demowizeline/demo/src/main/java/com/example/junit/demo/DemoJunitApplication.java (+"startingBlock*Ù
+startingBlock+ (CÁ
+¾
+ (
+%7"
+__annotate*K
+
+__unknown_file (/-
++org.springframework.context.annotation.Bean*S
+
+__unknown_file (7
+5
+ctx.org.springframework.context.ApplicationContextu
+s
+? (B5
+ctx.org.springframework.context.ApplicationContext"__annotation*"
+
+__unknown_file (
+
+%7*
+1*¶
+1	 (°
+­
+	 (0
+%0*org.springframework.boot.CommandLineRunner"__declareFunction*\
+
+__unknown_file (@>
+<__sonar_lambda_0$com.example.junit.demo.DemoJunitApplication³
+°
+
+__unknown_file (9
+0
+%0*org.springframework.boot.CommandLineRunner"
+ctx"__id*S
+
+__unknown_file (7
+5
+ctx.org.springframework.context.ApplicationContext">
+ (2
+0
+%0*org.springframework.boot.CommandLineRunner:A
+, (B5
+ctx.org.springframework.context.ApplicationContextB/-
++com.example.junit.demo.DemoJunitApplicationH

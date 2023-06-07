@@ -1,0 +1,7 @@
+organization=erickjgarciap
+projectKey=Erickjgarciap_demo
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.42239
+dashboardUrl=https://sonarcloud.io/dashboard?id=Erickjgarciap_demo
+ceTaskId=AYiXzE7Yr0D52XHv0rBc
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYiXzE7Yr0D52XHv0rBc
