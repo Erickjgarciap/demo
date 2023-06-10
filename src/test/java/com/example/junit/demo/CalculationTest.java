@@ -20,9 +20,14 @@ public class CalculationTest {
 
     @Test
     public void testFindMax(){
-        System.out.println("test case find max");
+        System.out.println("caso de prueba para encotrar el maximo elemento de un arreglo");
         assertEquals(4, Calculation.findMax(new int[]{1,3,4,2}));
         assertEquals(0,Calculation.findMax(new int[]{-12,-3,-4,0}));
-        
+
+    }
+    @Test
+    public void testCube(){
+        System.out.println("caso de prueba cubo");
+        assertEquals(27,Calculation.cube(3));
     }
 }
