@@ -19,17 +19,17 @@ import java.util.StringTokenizer;
     //metodo que regresa uuna palabra alreves
     public static String reverseWord(String str){
 
-<span class="nc" id="L22">        StringBuilder result=new StringBuilder();</span>
-<span class="nc" id="L23">        StringTokenizer tokenizer=new StringTokenizer(str,&quot; &quot;);</span>
+<span class="fc" id="L22">        StringBuilder result=new StringBuilder();</span>
+<span class="fc" id="L23">        StringTokenizer tokenizer=new StringTokenizer(str,&quot; &quot;);</span>
 
-<span class="nc bnc" id="L25" title="All 2 branches missed.">        while(tokenizer.hasMoreTokens()){</span>
-<span class="nc" id="L26">            StringBuilder sb=new StringBuilder();</span>
-<span class="nc" id="L27">            sb.append(tokenizer.nextToken());</span>
-<span class="nc" id="L28">            sb.reverse();</span>
-<span class="nc" id="L29">            result.append(sb);</span>
-<span class="nc" id="L30">            result.append(&quot; &quot;);</span>
-<span class="nc" id="L31">        }</span>
-<span class="nc" id="L32">        return result.toString();</span>
+<span class="fc bfc" id="L25" title="All 2 branches covered.">        while(tokenizer.hasMoreTokens()){</span>
+<span class="fc" id="L26">            StringBuilder sb=new StringBuilder();</span>
+<span class="fc" id="L27">            sb.append(tokenizer.nextToken());</span>
+<span class="fc" id="L28">            sb.reverse();</span>
+<span class="fc" id="L29">            result.append(sb);</span>
+<span class="fc" id="L30">            result.append(&quot; &quot;);</span>
+<span class="fc" id="L31">        }</span>
+<span class="fc" id="L32">        return result.toString();</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>

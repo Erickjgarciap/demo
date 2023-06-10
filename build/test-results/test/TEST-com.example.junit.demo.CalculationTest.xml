@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.junit.demo.CalculationTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-06-10T12:10:41" hostname="ericko-ThinkPad-L490" time="0.033">
+<testsuite name="com.example.junit.demo.CalculationTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-06-10T12:22:25" hostname="ericko-ThinkPad-L490" time="0.04">
   <properties/>
-  <testcase name="testFindMax()" classname="com.example.junit.demo.CalculationTest" time="0.03"/>
-  <testcase name="testCube()" classname="com.example.junit.demo.CalculationTest" time="0.002"/>
-  <system-out><![CDATA[test case find max
-test case cube
+  <testcase name="testFindMax()" classname="com.example.junit.demo.CalculationTest" time="0.033"/>
+  <testcase name="testCube()" classname="com.example.junit.demo.CalculationTest" time="0.001"/>
+  <testcase name="testReverseWord()" classname="com.example.junit.demo.CalculationTest" time="0.002"/>
+  <system-out><![CDATA[caso de prueba para encotrar el maximo elemento de un arreglo
+caso de prueba cubo
+palabra de reversa
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -30,4 +30,10 @@ public class CalculationTest {
         System.out.println("caso de prueba cubo");
         assertEquals(27,Calculation.cube(3));
     }
+
+    @Test
+    public void testReverseWord(){
+        System.out.println("palabra de reversa");
+        assertEquals("kcire ",Calculation.reverseWord("erick"));
+    }
 }
